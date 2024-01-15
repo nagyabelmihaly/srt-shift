@@ -27,7 +27,7 @@ if __name__ == "__main__":
     output_file = input("Enter the output SRT file path: ")
     
     try:
-        shift_ms = int(input("Enter the time shift in milliseconds (positive or negative): "))
+        shift_ms = int(input("Enter the time shift in milliseconds (positive: delay | negative: hasten): "))
     except ValueError:
         print("Invalid input. Please enter a valid integer for time shift.")
         exit()
